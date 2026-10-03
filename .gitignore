@@ -1,0 +1,120 @@
+# Xcode
+#
+# Recommended .gitignore for Xcode and Apple platform projects
+# Inspired by GitHub's standard template with additions for common tools
+
+## Build artifacts
+build/
+Build/
+DerivedData/
+
+## User settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+## Xcode workspace
+*.xcscmblueprint
+*.xccheckout
+
+## Swift Package Manager
+.swiftpm/
+Packages/
+Package.pins
+Package.resolved
+.build/
+
+## CocoaPods
+Pods/
+
+## Carthage
+Carthage/Build/
+Carthage/Checkouts/
+
+## Accio dependency management
+Dependencies/
+.accio/
+
+## Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+## Code coverage
+*.xccovreport
+*.xccovarchive
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+## SwiftLint cache
+.swiftlint_cache
+
+## SwiftFormat cache
+.swiftformat
+
+## Symbol graphs
+Documentation.doccarchive/
+
+## Archives
+*.xcarchive
+
+## dSYM files
+*.dSYM
+
+## Generated files
+*.hmap
+*.ipa
+*.appex
+*.iml
+
+## macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+## Thumbnails
+._.DS_Store
+
+## Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+## Temporary files
+*.swp
+*.lock
+*.tmp
+*.orig
+
+## Logs
+*.log
+
+## Xcode Server & CI
+integration-* 
+
+## SwiftData / Core Data generated
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+## Swift Playgrounds app packages
+*.playgroundbook
+
+## Misc
+*.map
+*.btm
